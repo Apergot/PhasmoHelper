@@ -3,6 +3,7 @@ import {Text, View, ScrollView, StyleSheet, Platform} from 'react-native';
 import {Picker} from '@react-native-picker/picker';
 
 import * as Pickers from './src/components/pickers';
+import Test from './src/components/test';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           </View>
         ))}
       </ScrollView>
+      <Test/>
     </View>
   );
 }
