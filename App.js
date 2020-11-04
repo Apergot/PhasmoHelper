@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Text, View, ScrollView, StyleSheet, Platform} from 'react-native';
 import {Picker} from '@react-native-picker/picker';
 
+import Carrousel from './src/components/carrousel';
 import * as Pickers from './src/components/pickers';
 import Test from './src/components/test';
 
@@ -18,6 +19,7 @@ export default function App() {
         ))}
       </ScrollView>
       <Test/>
+      <Carrousel/>
     </View>
   );
 }
